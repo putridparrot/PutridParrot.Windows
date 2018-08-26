@@ -1,0 +1,1 @@
+Some Windows OS specific code, for example interacting with the Windows Shell.
