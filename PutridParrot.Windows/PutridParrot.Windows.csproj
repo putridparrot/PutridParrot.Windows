@@ -41,11 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IShellLinkW.cs" />
-    <Compile Include="Shell.cs" />
+    <Compile Include="Shell\IPersist.cs" />
+    <Compile Include="Shell\IShellLinkW.cs" />
+    <Compile Include="Shell\Shell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShellLink.cs" />
-    <Compile Include="Shortcut.cs" />
+    <Compile Include="Shell\ShellLink.cs" />
+    <Compile Include="Shell\Shortcut.cs" />
+    <Compile Include="Shell\SLGP_FLAGS.cs" />
+    <Compile Include="Shell\SLR_FLAGS.cs" />
+    <Compile Include="WinApi\WIN32_FIND_DATAW.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

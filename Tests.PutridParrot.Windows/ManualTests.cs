@@ -5,7 +5,7 @@ using PutridParrot.Windows;
 
 namespace Tests.PutridParrot.Windows
 {
-    [TestFixture, Ignore("Manual test dependent upon a specific link existing files")]
+    [TestFixture/*, Ignore("Manual test dependent upon a specific link existing files")*/]
     public class ManualTests
     {
         [Test]
