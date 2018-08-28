@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,7 +50,26 @@
     <Compile Include="Shell\Shortcut.cs" />
     <Compile Include="Shell\SLGP_FLAGS.cs" />
     <Compile Include="Shell\SLR_FLAGS.cs" />
+    <Compile Include="WinApi\ARGB.cs" />
+    <Compile Include="WinApi\BLENDFUNCTION.cs" />
+    <Compile Include="WinApi\BOOL.cs" />
+    <Compile Include="WinApi\EDITBALLOONTIP.cs" />
+    <Compile Include="Exceptions\InvalidVolumeException.cs" />
+    <Compile Include="Exceptions\InvalidVolumeTypeException.cs" />
+    <Compile Include="WinApi\Point.cs" />
+    <Compile Include="WinApi\RECT.cs" />
+    <Compile Include="WinApi\SHFILEINFO.cs" />
+    <Compile Include="WinApi\SHFILEINFOA.cs" />
+    <Compile Include="WinApi\Size.cs" />
+    <Compile Include="WinApi\TOOLINFO.cs" />
+    <Compile Include="WinApi\UniInfoLevels.cs" />
+    <Compile Include="WinApi\UniversalNameInfo.cs" />
+    <Compile Include="Exceptions\VolumeAccessException.cs" />
+    <Compile Include="WinApi\VolumeFlags.cs" />
+    <Compile Include="WinApi\VolumeInfo.cs" />
+    <Compile Include="WinApi\VolumeTypes.cs" />
     <Compile Include="WinApi\WIN32_FIND_DATAW.cs" />
+    <Compile Include="WinApi\WinApi.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
